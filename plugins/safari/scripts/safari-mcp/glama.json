@@ -1,0 +1,13 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "Codex Safari MCP",
+  "description": "Codex Safari browser automation for macOS, adapted from SafariMCP.",
+  "repository": "https://github.com/abdousarr/codex-plugins",
+  "homepage": "https://github.com/abdousarr/codex-plugins/tree/main/plugins/safari",
+  "author": "Abdou Sarr",
+  "maintainers": ["abdousarr"],
+  "license": "MIT",
+  "categories": ["browser-automation", "web-scraping", "developer-tools"],
+  "tags": ["safari", "macos", "browser", "automation", "applescript", "mcp"],
+  "platforms": ["macos"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Codex Safari MCP",
+  "description": "Codex Safari browser automation for macOS, adapted from SafariMCP.",
+  "command": "node",
+  "args": ["index.js"],
+  "env": {},
+  "tags": ["browser-automation", "safari", "macos", "webkit"]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "codex-safari-mcp",
+  "version": "2.12.0",
+  "mcpName": "local.codex/safari",
+  "description": "Codex Safari MCP runtime for macOS, adapted from SafariMCP.",
+  "type": "module",
+  "types": "index.d.ts",
+  "main": "index.js",
+  "bin": {
+    "codex-safari-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "self-test": "node scripts/self-test.mjs",
+    "build-extension": "node scripts/build-extension.mjs",
+    "build-extension:auto-team": "node scripts/build-extension.mjs --team auto",
+    "build-extension:local": "node scripts/build-extension.mjs --sign-to-run-locally",
+    "check-setup": "node scripts/check-setup.mjs",
+    "check-safari-installed": "node scripts/check-safari-installed.mjs",
+    "check-safari-running": "node scripts/check-safari-running.mjs",
+    "check-apple-events": "node scripts/check-apple-events.mjs",
+    "check-helper-codesign": "node scripts/check-helper-codesign.mjs",
+    "check-extension-build": "node scripts/check-extension-build.mjs",
+    "postinstall": "node scripts/postinstall.cjs || true"
+  },
+  "keywords": [
+    "safari",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "browser-automation",
+    "macos",
+    "apple",
+    "webkit",
+    "claude",
+    "cursor",
+    "ai-agent",
+    "applescript",
+    "apple-silicon",
+    "web-automation",
+    "anthropic",
+    "windsurf",
+    "continue-dev",
+    "devtools",
+    "testing",
+    "scraping",
+    "screenshot",
+    "ai-automation"
+  ],
+  "author": {
+    "name": "Abdou Sarr",
+    "url": "https://github.com/abdousarr"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/abdousarr/codex-plugins/tree/main/plugins/safari",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdousarr/codex-plugins.git",
+    "directory": "plugins/safari/scripts/safari-mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/abdousarr/codex-plugins/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "darwin"
+  ],
+  "files": [
+    "index.js",
+    "safari.js",
+    "mcp-helpers.js",
+    "safari-helper",
+    "safari-helper.entitlements",
+    "safari-helper.swift",
+    "extension/",
+    "glama.json",
+    "LICENSE",
+    "README.md",
+    "index.d.ts",
+    "scripts/postinstall.cjs",
+    "scripts/self-test.mjs",
+    "scripts/build-extension.mjs",
+    "scripts/check-setup.mjs",
+    "scripts/check-safari-installed.mjs",
+    "scripts/check-safari-running.mjs",
+    "scripts/check-apple-events.mjs",
+    "scripts/check-helper-codesign.mjs",
+    "scripts/check-extension-build.mjs",
+    "xcode/"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "ws": "^8.19.0"
+  },
+  "overrides": {
+    "hono": "^4.12.14",
+    "@hono/node-server": "^1.19.13"
+  }
+}

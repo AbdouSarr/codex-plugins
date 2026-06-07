@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.abdousarr/codex-safari-mcp",
+  "description": "Codex Safari browser automation for macOS, adapted from SafariMCP.",
+  "repository": {
+    "url": "https://github.com/abdousarr/codex-plugins",
+    "source": "github"
+  },
+  "version": "2.12.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "codex-safari-mcp",
+      "version": "2.12.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtime": "node",
+      "environmentVariables": []
+    }
+  ]
+}

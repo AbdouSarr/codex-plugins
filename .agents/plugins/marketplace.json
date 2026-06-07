@@ -1,0 +1,20 @@
+{
+  "name": "abdousarr",
+  "interface": {
+    "displayName": "Abdou Sarr"
+  },
+  "plugins": [
+    {
+      "name": "safari",
+      "source": {
+        "source": "local",
+        "path": "./plugins/safari"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "safari": {
+      "command": "node",
+      "args": [
+        "scripts/safari-mcp/index.js"
+      ],
+      "cwd": ".",
+      "env": {
+        "CODEX_SAFARI_WS_PORT": "9323",
+        "CODEX_SAFARI_HTTP_PORT": "9324",
+        "CODEX_SAFARI_ENABLE_STORAGE_TOOLS": "0",
+        "SAFARI_MCP_QUIET": "1"
+      }
+    }
+  }
+}

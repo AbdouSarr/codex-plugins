@@ -1,0 +1,21 @@
+.DS_Store
+*.log
+*.tmp
+.env
+.env.*
+node_modules/
+
+# Xcode and Safari extension build output
+DerivedData/
+build/
+*.xcresult
+*.xcuserstate
+xcuserdata/
+
+# Local Codex/Safari state
+.codex-safari/
+
+# Local Python/test environments
+.venv/
+venv/
+work/

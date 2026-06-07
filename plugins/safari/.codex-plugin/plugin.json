@@ -1,0 +1,52 @@
+{
+  "name": "safari",
+  "version": "0.1.0",
+  "description": "Control Safari from Codex using your real macOS Safari session.",
+  "author": {
+    "name": "Abdou Sarr",
+    "url": "https://github.com/abdousarr"
+  },
+  "homepage": "https://github.com/abdousarr/codex-safari",
+  "repository": "https://github.com/abdousarr/codex-safari",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "browser",
+    "safari",
+    "webkit",
+    "macos",
+    "automation",
+    "mcp",
+    "apple-events"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Safari",
+    "shortDescription": "Control your real Safari session",
+    "longDescription": "Safari lets Codex use your local macOS Safari browser for tasks that need existing browser state, including open tabs, page content, and websites you are already signed into. It can navigate, read pages, click, type, upload files, take screenshots, and claim existing tabs while keeping automation local to your Mac. Safari content may include sensitive information from logged-in sites; Codex should confirm before sending sensitive data, submitting forms, changing access, making purchases, deleting data, or installing software.",
+    "developerName": "Abdou Sarr",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://github.com/abdousarr/codex-safari",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Check Safari plugin setup.",
+      "Review my open Safari tabs.",
+      "Take a screenshot in Safari."
+    ],
+    "brandColor": "#0A84FF",
+    "composerIcon": "./assets/safari-composer.png",
+    "logo": "./assets/safari.png",
+    "screenshots": [
+      "./assets/screenshot-safari-setup-report.png",
+      "./assets/screenshot-safari-extension-settings.png",
+      "./assets/screenshot-openai-plugin-docs.png",
+      "./assets/screenshot-apple-webdriver-docs.png"
+    ]
+  }
+}
