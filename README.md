@@ -38,6 +38,19 @@ codex plugin add safari@abdousarr
 
 Start a new Codex thread after reinstalling so new skills and MCP tools are loaded.
 
+## Individual Plugin Repos
+
+This repository is the marketplace users install. Individual plugin repositories are mirrors of
+folders under `plugins/`, generated with `git subtree split`.
+
+For Safari:
+
+```bash
+scripts/sync-plugin-repo.sh safari abdousarr/codex-safari
+```
+
+Keep marketplace installs pointed at `abdousarr/codex-plugins`; use the individual plugin repos for plugin-specific history, issues, and source browsing.
+
 ## Marketplace Layout
 
 Codex resolves plugin paths relative to the marketplace root. This repository uses:
